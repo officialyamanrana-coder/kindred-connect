@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/aravv-logo.jpg.asset.json";
+import logo from "@/assets/aravv-logo.jpg";
 
 const TELEGRAM_URL = "https://t.me/+t3R5qjK0zXA3M2Jl";
 
