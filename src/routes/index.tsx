@@ -43,7 +43,7 @@ function Index() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-full bg-halo blur-2xl" aria-hidden="true" />
             <img
-              src={logo.url}
+              src={logo}
               alt="Aravv Shorts logo"
               width={160}
               height={160}
