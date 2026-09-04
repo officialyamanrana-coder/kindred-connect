@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/aravv-logo.jpg.asset.json";
+import logo from "@/assets/aravv-logo.jpg";
 
 const TELEGRAM_URL = "https://t.me/+t3R5qjK0zXA3M2Jl";
 
@@ -43,7 +43,7 @@ function Index() {
           <div className="relative">
             <div className="absolute -inset-4 rounded-full bg-halo blur-2xl" aria-hidden="true" />
             <img
-              src={logo.url}
+              src={logo}
               alt="Aravv Shorts logo"
               width={160}
               height={160}
