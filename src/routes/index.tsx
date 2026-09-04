@@ -30,6 +30,11 @@ function Index() {
     (window as unknown as { fbq?: (...a: unknown[]) => void }).fbq?.("track", "Lead");
   };
 
+  const joinTelegram = () => {
+    track();
+    window.open(TELEGRAM_URL, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <main className="relative flex min-h-screen items-center justify-center overflow-hidden bg-background px-5 py-10">
       <div className="pointer-events-none absolute inset-0 bg-aura" aria-hidden="true" />
@@ -62,15 +67,13 @@ function Index() {
           Enter the guild. <span className="font-semibold text-accent">Premium signals</span> await.
         </p>
 
-        <a
-          href={TELEGRAM_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={track}
+        <button
+          type="button"
+          onClick={joinTelegram}
           className="mt-8 flex w-full items-center justify-center gap-2 rounded-2xl bg-cta px-6 py-4 text-base font-bold uppercase tracking-wider text-primary-foreground shadow-cta transition-transform duration-200 hover:scale-[1.03] active:scale-100"
         >
           Join Telegram <span aria-hidden="true">&#10148;</span>
-        </a>
+        </button>
 
         <p className="mt-6 text-xs text-muted-foreground/80">
           Tap to open Telegram and join instantly
