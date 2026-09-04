@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   const track = () => {
-    (window as unknown as { fbq?: (...a: unknown[]) => void }).fbq?.("track", "Lead");
+    (window as unknown as { fbq?: (...a: unknown[]) => void }).fbq?.("track", "Subscribe");
   };
 
   const joinTelegram = () => {
