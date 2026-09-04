@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/cash-club-logo.png.asset.json";
+import logo from "@/assets/aravv-logo.jpg.asset.json";
 
 const TELEGRAM_URL = "https://t.me/+t3R5qjK0zXA3M2Jl";
 
@@ -7,13 +7,13 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Billu Official — Cash Club Devil Boss Signals" },
+      { title: "Aravv Shorts — Premium Telegram Signals" },
       {
         name: "description",
         content:
-          "Join Billu Official on Telegram for premium Cash Club Devil Boss signals. Tap to enter the guild instantly.",
+          "Join Aravv Shorts on Telegram for premium signals. Tap to enter the guild instantly.",
       },
-      { property: "og:title", content: "Billu Official — Cash Club Devil Boss Signals" },
+      { property: "og:title", content: "Aravv Shorts — Premium Telegram Signals" },
       {
         property: "og:description",
         content: "Enter the guild. Premium signals await on Telegram.",
@@ -44,16 +44,16 @@ function Index() {
             <div className="absolute -inset-4 rounded-full bg-halo blur-2xl" aria-hidden="true" />
             <img
               src={logo.url}
-              alt="Cash Club Devil Boss logo"
+              alt="Aravv Shorts logo"
               width={160}
               height={160}
-              className="relative h-40 w-40 rounded-full ring-2 ring-accent/60"
+              className="relative h-40 w-40 rounded-full object-cover ring-2 ring-accent/60"
             />
           </div>
         </div>
 
         <h1 className="mt-8 text-4xl font-extrabold uppercase tracking-wide text-foreground">
-          Billu Official
+          Aravv Shorts
         </h1>
 
         <div className="mx-auto mt-4 h-px w-24 bg-divider" aria-hidden="true" />

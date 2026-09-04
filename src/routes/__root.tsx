@@ -77,10 +77,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Billu Official — Premium Telegram Signals" },
-      { name: "description", content: "Enter the guild. Premium Cash Club Devil Boss signals on Telegram." },
+      { title: "Aravv Shorts — Premium Telegram Signals" },
+      { name: "description", content: "Enter the guild. Premium signals on Telegram." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Billu Official — Premium Telegram Signals" },
+      { property: "og:title", content: "Aravv Shorts — Premium Telegram Signals" },
       { property: "og:description", content: "Enter the guild. Premium signals await." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
